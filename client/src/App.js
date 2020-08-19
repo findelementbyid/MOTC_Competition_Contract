@@ -95,7 +95,7 @@ class App extends Component {
             console.log(e);
           }
         }}>Query</button>
-        <h4>可以補助: ${this.state.result} 元</h4>
+        <h4>It is expected that this route subsidies: ${this.state.result} 元</h4>
       </div>
     );
   }
