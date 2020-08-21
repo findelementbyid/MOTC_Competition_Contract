@@ -30,6 +30,7 @@
 4.Launch the server.
   ```
   cd client/
+  npm install
   npm run strat
   ```
   * please make sure that the MetaMask network is same as Ganache(the port number is 8545 by default).
