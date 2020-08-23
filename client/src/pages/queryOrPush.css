@@ -1,0 +1,50 @@
+.qOp{
+    position: fixed;
+    left:50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.1);
+    text-align:center;
+    font-weight: bolder;
+    color:rgb(15, 14, 14);
+    font-family: "微軟正黑體", sans-serif;
+    border-radius: 50px;
+    padding:200px 200px;
+    width:25%;
+     
+ }
+ 
+ .query{
+     position: fixed;
+     left:50%;
+     top: 50%;
+     transform:translate(-50%,-90%);
+     background: rgba(18, 241, 156, 0.1);
+     text-align:center;
+     font-weight: bolder;
+     color:rgb(15, 14, 14);
+     font-family: "微軟正黑體", sans-serif;
+     border-radius: 50px;
+     padding:100px 100px;
+     width:50%;
+     height:5%;
+ 
+ 
+ }
+ 
+ .push{
+     position: fixed;
+     left:50%;
+     top: 50%;
+     transform:translate(-50%,-10%);
+     background: rgba(31, 177, 235, 0.1);
+     text-align:center;
+     font-weight: bolder;
+     color:rgb(15, 14, 14);
+     font-family: "微軟正黑體", sans-serif;
+     border-radius: 50px;
+     padding:100px 100px;
+     width:50%;
+     height:5%;
+ 
+ }

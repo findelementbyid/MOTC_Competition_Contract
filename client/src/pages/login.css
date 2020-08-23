@@ -1,0 +1,49 @@
+
+
+.begin{
+    position: fixed;
+    left:50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.1);
+    text-align:center;
+    color:#fff;
+    font-family: "微軟正黑體", sans-serif;
+    border-radius: 50px;
+    padding:30px;
+    width:25%;
+    
+ }
+ .typein{
+     text-align: center;
+     color:rgb(0, 0, 0);
+ }
+ 
+ input[type="account"], input[type="password"]{
+     font-size: 18px;
+     font-weight:bold;
+     font-family:"微軟正黑體", sans-serif ;
+     text-align: center;
+     line-height: initial;
+     color:rgba(0, 0, 0, 0.9);
+     padding:5px;
+     border:0;
+     border-radius: 0px;
+     margin:10 auto;
+     display:block;
+     width:100%;
+ }
+ 
+ 
+ button{
+     border:0;
+     border-radius: 15px;
+     padding:4px 60px;
+     margin:20px auto;
+     font-size:18px;
+     font-weight: bold;
+     font-family:"微軟正黑體", sans-serif ;
+     background: #fff;
+     color:#000;
+ }
+ 
