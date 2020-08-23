@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
 import "../App.css";
+import "./query.css";
 
 class query extends Component {
   state = { storageValue: 0, temp: 0, result: 0, web3: null, accounts: null, contract: null };
@@ -59,7 +60,7 @@ class query extends Component {
     return (
       <div className="App">
         <h1>Blockchain Subsidy System</h1>
-        <h2>You can check the subsidy amount through the bus route.</h2>
+        <h3>You can check the subsidy amount through the bus route.</h3>
         {/* <h2>Smart Contract Example</h2>
         <p>
           If your contracts compiled and migrated successfully, below will show
@@ -73,8 +74,8 @@ class query extends Component {
         {/* <input ref="thisYear" style={{ width: 200, height: 20 }}></input>
         <input ref="lastYear" style={{ width: 200, height: 20 }}></input> */}
 
-        <h4>Enter the route you wanna query:
-          <input ref="path" style={{ width: 200, height: 20 }}></input>
+        <h4>Enter the route you wanna query: &nbsp;
+          <input type="path" ref="path" ></input>
         </h4>
 
         <button onClick={async () => {

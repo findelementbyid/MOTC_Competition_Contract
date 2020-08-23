@@ -1,0 +1,27 @@
+.App{
+    position: fixed;
+    left:50%;
+    top: 50%;
+    transform:translate(-50%,-51%);
+    background: rgba(0, 0, 0, 0.1);
+    text-align:center;
+    color:rgb(15, 14, 14);
+    font-family: "微軟正黑體", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 70px;
+    padding:80px 100px;
+    width:60%;
+ }
+ input[type="path"]{
+     font-size: 18px;
+     font-weight:bold;
+     font-family:"微軟正黑體", sans-serif ;
+     text-align: center;
+     color:rgba(0, 0, 0, 0.5);
+     padding:5px;
+     border:0;
+     border-radius: 10px;
+     margin:10 auto;
+     width:30%;
+ }
